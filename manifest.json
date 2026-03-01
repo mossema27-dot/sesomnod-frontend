@@ -1,0 +1,39 @@
+{
+  "name": "SesomNod Engine",
+  "short_name": "SesomNod",
+  "description": "Elite sports betting analytics — precision over chaos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "no",
+  "categories": ["sports", "finance"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dagens Kamp",
+      "url": "/",
+      "description": "Se dagens analyserte kamp"
+    },
+    {
+      "name": "Legg til Pick",
+      "url": "/add-pick",
+      "description": "Registrer ny satsing"
+    }
+  ]
+}
